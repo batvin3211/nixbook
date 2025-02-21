@@ -1,4 +1,3 @@
-
 echo "This will delete ALL local files and reset this Nixbook Lite!";
 read -p "Do you want to continue? (y/n): " answer
 
@@ -21,6 +20,9 @@ echo "Powerwashing NixBook Lite..."
   cp -R /etc/nixbook/config/config_lite ~/.config
   cp /etc/nixbook/config/desktop_lite/* ~/Desktop/
   cp -R /etc/nixbook/config/applications_lite ~/.local/share/applications
+
+  # Reload dconf config
+  dconf load / < ~/.config/dconf.txt
 
   # Clear space and rebuild
   sudo nix-collect-garbage -d
