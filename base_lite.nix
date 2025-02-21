@@ -1,4 +1,3 @@
-
 { config, pkgs, ... }:
 {
   zramSwap.enable = true;
@@ -16,7 +15,7 @@
 
   environment.systemPackages = with pkgs; [
     git
-    ungoogled-chromium
+    chromium
     libnotify
     gawk
     sudo
