@@ -214,7 +214,7 @@ window-position=(0, 0)
 window-size=(1124, 696)
 
 [org/nemo/preferences]
-show-hidden-files=true
+show-hidden-files=false
 
 [org/nemo/window-state]
 geometry='800x550+159+152'
