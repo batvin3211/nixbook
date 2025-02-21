@@ -163,9 +163,7 @@
             "org.gnome.Terminal.desktop"
         ],
         "value": [
-            "google-chrome.desktop",
-            "com.google.Chrome.desktop:flatpak",
-            "firefox.desktop"
+            "chromium-browser.desktop"
         ]
     },
     "group-apps": {

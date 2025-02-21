@@ -54,7 +54,7 @@ nix-shell -p git
 
 ## Step 6:  Clone the nixbook repo  (make sure you run as sudo and you're in /etc!)
 ```
-sudo git clone https://github.com/batvin3211/nixbook
+sudo git clone https://git.ascosilinux.com/batvin321/nixbook
 ```
 
 ## Step 7:  Run the install script (run this with NO sudo)
