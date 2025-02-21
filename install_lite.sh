@@ -21,6 +21,9 @@ if [[ "$answer" =~ ^[Yy]$ ]]; then
   sudo nixos-rebuild switch
 
   # Lite has no flathub to save space
+
+  # Load dconf config
+  dconf load / < ~/.config/dconf.txt
   
   reboot
 else
