@@ -15,7 +15,7 @@
 
   environment.systemPackages = with pkgs; [
     git
-    chromium
+    ungoogled-chromium
     libnotify
     gawk
     sudo
