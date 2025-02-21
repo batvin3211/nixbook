@@ -21,8 +21,8 @@ echo "Powerwashing NixBook Lite..."
   cp /etc/nixbook/config/desktop_lite/* ~/Desktop/
   cp -R /etc/nixbook/config/applications_lite ~/.local/share/applications
 
-  # Reload dconf config
-  dconf load / < ~/.config/dconf.txt
+  # Load dconf config
+  dconf load / < /etc/nixbook/config/config_lite/dconf.txt
 
   # Clear space and rebuild
   sudo nix-collect-garbage -d
