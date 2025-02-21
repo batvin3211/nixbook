@@ -23,7 +23,7 @@ if [[ "$answer" =~ ^[Yy]$ ]]; then
   # Lite has no flathub to save space
 
   # Load dconf config
-  dconf load / < ~/.config/dconf.txt
+  dconf load / < /etc/nixbook/config/config_lite/dconf.txt
   
   reboot
 else
