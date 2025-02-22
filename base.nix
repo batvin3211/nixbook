@@ -23,7 +23,7 @@
 
   environment.systemPackages = with pkgs; [
     git
-    firefox
+    ungoogled-chromium
     libnotify
     gawk
     gnugrep
@@ -37,6 +37,8 @@
     xdg-desktop-portal-gtk
     xdg-desktop-portal-gnome
   ];
+
+  fonts.packages = [ pkgs.corefonts ];
 
   services.flatpak.enable = true;
 
