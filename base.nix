@@ -23,7 +23,7 @@
 
   environment.systemPackages = with pkgs; [
     git
-    ungoogled-chromium
+    firefox
     libnotify
     gawk
     gnugrep
