@@ -10,7 +10,7 @@ echo "Powerwashing NixBook Lite..."
   
 
   # Erase data and set up home directory again
-  sudo rm -rf ~/
+  rm -rf ~/
   mkdir ~/Desktop
   mkdir ~/Documents
   mkdir ~/Downloads
